@@ -1,3 +1,33 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+bg-dark-2 {
+  background-color: #2f303a !important;
+}
+
+a {
+  color: white !important;
+}
+
+#sticky-footer {
+  -ms-flex-negative: none;
+      flex-shrink: none;
+}
+
 .carousel-item {
   height: 550px;
 }
