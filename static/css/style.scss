@@ -1,4 +1,7 @@
-$color1: #ffd300;
+@import "var";
+@import "reset";
+@import "header";
+
 body {
   margin: 0;
   padding: 0;

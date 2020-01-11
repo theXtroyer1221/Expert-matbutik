@@ -1,0 +1,10 @@
+.carousel-item {
+  height: 550px;
+}
+
+.carousel-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=header.css.map */
