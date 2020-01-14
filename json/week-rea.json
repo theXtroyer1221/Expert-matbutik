@@ -1,0 +1,20 @@
+[
+  {
+    "name": "choclate",
+    "price": "40",
+    "type of price": "singular",
+    "picture": "choclate"
+  },
+  {
+    "name": "fruit",
+    "price": "20",
+    "type of price": "singular",
+    "picture": "fruit"
+  },
+  {
+    "name": "kött",
+    "price": "120",
+    "type of price": "singular",
+    "picture": "meat"
+  }
+]

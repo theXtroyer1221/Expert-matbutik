@@ -15,7 +15,21 @@ body {
   width: 100%;
 }
 
-bg-dark-2 {
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+
+.bg-dark {
+  background-color: #2f303a !important;
+}
+
+.bg-dark-2 {
   background-color: #2f303a !important;
 }
 
@@ -23,19 +37,113 @@ a {
   color: white !important;
 }
 
+.vertical-hr {
+  border: none;
+  border-left: 1px solid #73848c;
+  height: 15px;
+  width: 1px;
+  background-color: white;
+  margin: 13px;
+}
+
+@media (max-width: 992px) {
+  .vertical-hr {
+    display: none;
+  }
+}
+
+.card {
+  border-radius: 0 !important;
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 0px 20px 5px #0000003d;
+          box-shadow: 0px 0px 20px 5px #0000003d;
+  cursor: pointer;
+}
+
+@media (pointer: none) {
+  .card:focus {
+    -webkit-box-shadow: 0px 0px 20px 5px #0000003d;
+            box-shadow: 0px 0px 20px 5px #0000003d;
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    margin-bottom: 50px;
+  }
+}
+
+.card-img-top {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.card img {
+  height: 180px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-body {
+  padding: 1.25rem 0 !important;
+}
+
+.card-title {
+  margin: 0;
+  padding-bottom: 2rem;
+  font-size: 25px;
+}
+
+.card-text {
+  padding-bottom: 2rem;
+  font-family: price_font;
+  font-size: 50px;
+  font-weight: bold;
+}
+
 #sticky-footer {
   -ms-flex-negative: none;
       flex-shrink: none;
 }
 
-.carousel-item {
-  height: 550px;
+#navbar {
+  z-index: 500;
+  -webkit-transition: all 0s ease-out 0s;
+  transition: all 0s ease-out 0s;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem !important;
+  -webkit-transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.5s !important;
+  transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.5s !important;
+  color: #bbbaba !important;
+  font-size: 17px;
+}
+
+.nav-link:hover {
+  padding: 0.5rem 1.5rem !important;
+  color: white !important;
+}
+
+.nav-link:focus {
+  color: white !important;
+}
+
+.carousel-inner {
+  height: 500px;
 }
 
 .carousel-item img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 500px;
 }
 
 body {
@@ -49,6 +157,7 @@ body {
 .navbar {
   width: 100%;
   background-color: #2f303a;
+  padding: 1.5rem !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

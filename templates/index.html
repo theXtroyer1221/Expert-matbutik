@@ -11,11 +11,11 @@
     <div class="carousel-inner">
       {% for i in range(0, len) %} {% if i==0 %}
       <div class="carousel-item active">
-        <img class="d-block w-100" src="/static/images/{{ product_image[i] }}.jpg" alt="{{i}}" />
+        <img class="d-block w-100" src="/static/images/images-slide/{{ product_image[i] }}.jpg" alt="{{i}}" />
       </div>
       {% else %}
       <div class="carousel-item">
-        <img class="d-block w-100" src="/static/images/{{ product_image[i] }}.jpg" alt="{{i}}" />
+        <img class="d-block w-100" src="/static/images/images-slide/{{ product_image[i] }}.jpg" alt="{{i}}" />
       </div>
       {% endif %} {%endfor%}
     </div>
@@ -29,4 +29,75 @@
     </a>
   </div>
 </header>
+<section class="mb-5 bg-dark text-white">
+  <nav class="navbar navbar-expand-lg navbar-dark static-top py-4" id="navbar">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#week">Erbjudande</a>
+          </li>
+          <hr class="vertical-hr" />
+          <li class="nav-item">
+            <a class="nav-link" href="#">Varor</a>
+          </li>
+          <hr class="vertical-hr" />
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontaktuppgifter</a>
+          </li>
+          <hr class="vertical-hr" />
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hitta Oss</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+{% if erbjudan == None %}
+<p>expert matbutik</p>
+{% else %}
+<section class="my-5" id="week">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <h1>Veckans erbjudande</h1>
+        <hr />
+        <div class="row">   
+          {% for i in erbjudan%}
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="/static/images/images-rea/{{ i['picture'] }}.jpg" alt="{{ i['name'] }}">
+              <div class="card-body text-center">
+                <h5 class="card-title">{{ i["name"] }}</h5>
+                <p class="card-text">{{  i["price"] }}KR</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<script>
+  var nav = document.getElementById("navbar");
+
+  window.onscroll = function() {
+    if (window.pageYOffset > 590) {
+      nav.style.position = "fixed";
+      nav.style.top = "0px";
+      nav.style.boxShadow = " 6px 3px 20px 4px rgba(0, 0, 0, 0.25)";
+      nav.classList.remove("py-4");
+      nav.classList.add("py-2");
+    } else {
+      nav.style.position = "relative";
+      nav.style.boxShadow = "none";
+      nav.classList.add("py-4");
+    }
+  };
+</script>
 {% endblock %}

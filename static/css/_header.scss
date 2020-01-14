@@ -1,8 +1,32 @@
-.carousel-item {
-  height: 550px;
+#navbar {
+  z-index: 500;
+  transition: all 0s ease-out 0s;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem !important;
+  transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.5s !important;
+  color: #bbbaba !important;
+  font-size: 17px;
+
+  &:hover {
+    padding: 0.5rem 1.5rem !important;
+    color: white !important;
+  }
+
+  &:focus {
+    color: white !important;
+  }
+}
+
+.carousel-inner {
+  height: 500px;
 }
 
 .carousel-item img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  height: 500px;
 }
