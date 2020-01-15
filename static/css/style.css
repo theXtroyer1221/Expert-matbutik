@@ -56,6 +56,7 @@ a {
   border-radius: 0 !important;
   -webkit-transition: all ease-in 0.3s;
   transition: all ease-in 0.3s;
+  overflow: hidden;
 }
 
 .card:hover {
@@ -80,6 +81,8 @@ a {
 .card-img-top {
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
 }
 
 .card img {
@@ -96,6 +99,7 @@ a {
   margin: 0;
   padding-bottom: 2rem;
   font-size: 25px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .card-text {
@@ -108,6 +112,10 @@ a {
 #sticky-footer {
   -ms-flex-negative: none;
       flex-shrink: none;
+}
+
+.navbar-brand {
+  font-family: "Bebas Neue", cursive;
 }
 
 #navbar {

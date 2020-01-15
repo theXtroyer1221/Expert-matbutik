@@ -1,20 +1,40 @@
-[
-  {
-    "name": "choclate",
-    "price": "40",
-    "type of price": "singular",
-    "picture": "choclate"
-  },
-  {
-    "name": "fruit",
-    "price": "20",
-    "type of price": "singular",
-    "picture": "fruit"
-  },
-  {
-    "name": "kött",
-    "price": "120",
-    "type of price": "singular",
-    "picture": "meat"
-  }
-]
+{
+  "product": [
+    {
+      "name": "choclate",
+      "price": "40",
+      "singular_price": true,
+      "picture": "choclate"
+    },
+    {
+      "name": "fruit",
+      "price": "20",
+      "singular_price": true,
+      "picture": "fruit"
+    },
+    {
+      "name": "kött",
+      "price": "120",
+      "singular_price": true,
+      "picture": "meat"
+    },
+    {
+      "name": "homos",
+      "price": "15",
+      "singular_price": true,
+      "picture": "meat"
+    },
+    {
+      "name": "falafel",
+      "price": "50",
+      "singular_price": true,
+      "picture": "meat"
+    },
+    {
+      "name": "rice",
+      "price": "280",
+      "singular_price": true,
+      "picture": "meat"
+    }
+  ]
+}

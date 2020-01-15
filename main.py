@@ -16,7 +16,7 @@ def index():
     return render_template("index.html",
                            len=len(product),
                            product_image=product,
-                           erbjudan=week_rea)
+                           erbjudan=week_rea["product"])
 
 
 if __name__ == "__main__":
