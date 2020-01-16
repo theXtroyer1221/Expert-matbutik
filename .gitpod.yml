@@ -1,0 +1,5 @@
+vscode:
+  extensions:
+    - eamodio.gitlens@10.2.0:L4GfuK5a2eOIpfcKVVvjEw==
+image:
+  file: .gitpod.Dockerfile
