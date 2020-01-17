@@ -1,5 +1,8 @@
 vscode:
   extensions:
     - eamodio.gitlens@10.2.0:L4GfuK5a2eOIpfcKVVvjEw==
-image:
-  file: .gitpod.Dockerfile
+    - ritwickdey.live-sass@3.0.0:x2c+sCJm+QmH2qn2h1X9Zw==image:
+    - formulahendry.auto-rename-tag@0.1.1:lKCmLIZAiCM0M8AjDnwCLQ==
+    - thekalinga.bootstrap4-vscode@6.1.0:duaQhthWtxWBzXAGe+5GKQ==
+    - esbenp.prettier-vscode@3.18.0:SpDMXXww8cAUOXaBCNECgQ==  file: .gitpod.Dockerfile
+    - ritwickdey.live-sass@3.0.0:x2c+sCJm+QmH2qn2h1X9Zw==

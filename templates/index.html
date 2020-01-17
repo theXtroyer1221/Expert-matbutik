@@ -1,5 +1,5 @@
 {% extends "base.html" %} {% block content %}
-<header>
+<header id=header>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       {%for i in range(0, len)%} {% if i == 0 %}
@@ -86,6 +86,7 @@
 {% endif %}
 <script>
   var nav = document.getElementById("navbar");
+  var lolol = document.getElementById("header");
 
   window.onscroll = function() {
     if (window.pageYOffset > 590) {
@@ -94,10 +95,14 @@
       nav.style.boxShadow = " 6px 3px 20px 4px rgba(0, 0, 0, 0.25)";
       nav.classList.remove("py-4");
       nav.classList.add("py-2");
+
+      lolol.style.marginBottom = "137px";
     } else {
       nav.style.position = "relative";
       nav.style.boxShadow = "none";
       nav.classList.add("py-4");
+
+      lolol.style.marginBottom = "0px";
     }
   };
 </script>
