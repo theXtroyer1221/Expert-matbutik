@@ -67,7 +67,7 @@
         <h1>Veckans erbjudande</h1>
         <hr />
         <div class="row">
-          {% for i in range(0, 3)%} {% for j in erbjudan %}
+          {% for j in erbjudan %}
           <div class="col-lg-4">
             <div class="card">
               <img class="card-img-top" src="/static/images/images-rea/{{ j['picture'] }}.jpg" alt="{{ j['name'] }}" onmouseover="bigImg(this)" onmouseout="normalImg(this)" />
@@ -79,7 +79,6 @@
           </div>
           {% endfor %}
         </div>
-        {% endfor %}
       </div>
     </div>
   </div>

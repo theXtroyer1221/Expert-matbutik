@@ -35,6 +35,12 @@
       "price": "280",
       "singular_price": true,
       "picture": "meat"
+    },
+    {
+      "name": "lolol",
+      "price": "280",
+      "singular_price": true,
+      "picture": "meat"
     }
   ]
 }
