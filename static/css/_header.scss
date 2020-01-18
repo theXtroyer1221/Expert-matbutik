@@ -26,13 +26,9 @@
   }
 }
 
-.carousel-inner {
-  height: 500px;
-}
-
 .carousel-item img {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   height: 500px;
   transition: all 0.5s ease-in;
 }

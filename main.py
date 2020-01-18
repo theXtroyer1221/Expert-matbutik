@@ -12,7 +12,7 @@ with open("json/week-rea.json", "r", encoding='utf8') as f:
 
 @app.route("/")
 def index():
-    product = ["apple", "banana", "product1", "product2", "orange"]
+    product = ["camera", "sattelite", "sea", "unicorn", "water"]
     return render_template("index.html",
                            len=len(product),
                            product_image=product,

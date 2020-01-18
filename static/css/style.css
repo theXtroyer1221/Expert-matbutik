@@ -188,14 +188,10 @@ a {
   color: white !important;
 }
 
-.carousel-inner {
-  height: 500px;
-}
-
 .carousel-item img {
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 500px;
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
