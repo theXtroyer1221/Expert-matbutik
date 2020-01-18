@@ -12,6 +12,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 
 p,
@@ -24,6 +25,11 @@ h4 {
   padding: 0;
 }
 
+h1 {
+  font-family: "Abril Fatface", cursive !important;
+  color: $color1;
+}
+
 .bg-dark {
   background-color: #2f303a !important;
 }
@@ -32,8 +38,26 @@ h4 {
   background-color: #2f303a !important;
 }
 
+.btn-primary {
+  background-color: $color1 !important;
+  border-color: $color1 !important;
+
+  &:hover {
+    background-color: #f5ca00 !important;
+    border-color: #f5ca00 !important;
+  }
+}
+
+.text-primary-2 {
+  color: $color1 !important;
+}
+
 a {
   color: white !important;
+}
+
+.nav-links ul {
+  list-style-type: none;
 }
 
 .vertical-hr {
@@ -48,6 +72,15 @@ a {
 @media (max-width: 992px) {
   .vertical-hr {
     display: none;
+  }
+
+  #social_media {
+    margin-bottom: 50px !important;
+  }
+
+  #contact-form {
+    padding-top: 5.5rem !important;
+    padding-bottom: 5.5rem !important;
   }
 }
 
@@ -83,7 +116,7 @@ a {
   transition: all ease-in 0.3s;
 }
 
-.card img {
+.card-img img {
   height: 180px !important;
   object-fit: cover;
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -94,8 +127,7 @@ a {
 }
 
 .card-title {
-  margin: 0;
-  padding-bottom: 2rem;
+  margin: 0 !important;
 
   font-size: 25px;
   font-family: "Bebas Neue", cursive;
@@ -107,6 +139,16 @@ a {
   font-family: price_font;
   font-size: 50px;
   font-weight: bold;
+
+  position: sticky;
+}
+
+.label {
+  height: 50px;
+
+  position: relative;
+  left: 0px;
+  top: 60px;
 }
 
 .footer-dark {

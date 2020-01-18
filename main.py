@@ -6,7 +6,7 @@ import random
 app = Flask(__name__)
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 
-with open("json/week-rea.json", "r") as f:
+with open("json/week-rea.json", "r", encoding='utf8') as f:
     week_rea = json.load(f)
 
 

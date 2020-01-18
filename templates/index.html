@@ -50,7 +50,7 @@
           </li>
           <hr class="vertical-hr" />
           <li class="nav-item">
-            <a class="nav-link" href="#Hitta_Oss">Hitta Oss</a>
+            <a class="nav-link" href="#hitta_oss">Hitta Oss</a>
           </li>
         </ul>
       </div>
@@ -70,10 +70,15 @@
           {% for j in erbjudan %}
           <div class="col-lg-4">
             <div class="card">
-              <img class="card-img-top" src="/static/images/images-rea/{{ j['picture'] }}.jpg" alt="{{ j['name'] }}" onmouseover="bigImg(this)" onmouseout="normalImg(this)" />
+              <div class="card-img">
+                <img class="card-img-top" src="/static/images/images-rea/{{ j['picture'] }}.jpg" alt="{{ j['name'] }}" onmouseover="bigImg(this)" onmouseout="normalImg(this)" />
+              </div>
               <div class="card-body text-center">
                 <h5 class="card-title">{{ j["name"] }}</h5>
-                <p class="card-text">{{ j["price"] }}KR</p>
+                <div class="card-price">
+                  <img class="label" src="\static\images\price-label\label-hr.png" />
+                  <p class="card-text text-primary-2">{{ j["price"] }}KR</p>
+                </div>
               </div>
             </div>
           </div>
@@ -84,8 +89,48 @@
   </div>
 </section>
 {% endif %}
-<section class="mb-5" id="Kontaktuppgifter"></section>
-<section class="mb-5"></section>
+<section class="mb-5 py-4" id="Kontaktuppgifter">
+  <div class="container">
+    <h1>Kontaktupggifter</h1>
+    <hr />
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-5">
+          <h2 class="mb-5">Välkomen att prata med oss</h2>
+          <div class="">
+            <p class="mb-3"><i class="fas fa-phone fa-lg mr-1"></i> 0721251234</p>
+            <p class="mb-3"><i class="fas fa-envelope fa-lg mr-1"></i> jaddou2005@gmail.com</p>
+            <p class="mb-3"><i class="fas fa-map-marker-alt fa-lg mr-1"></i> Albrektsvägen 125, 603 53 Norrköping</p>
+          </div>
+        </div>
+        <!-- social media -->
+        <div>
+          <div class="text-dark text-center" id="social_media">
+            <h4 class="mb-3">Följ oss på sociala medier</h4>
+            <div class="text-dark">
+              <a href="http://facebook.com" class="btn btn-social-icon btn-primary"> <i class="fab fa-facebook fa-2x text-dark"></i></a>
+              <a href="" class="btn btn-social-icon btn-primary"><i class="fab fa-instagram fa-2x text-dark"></i></a>
+              <a href="" class="btn btn-social-icon btn-primary"><i class="fab fa-whatsapp fa-2x text-dark"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <form class="text-center border border-light p-5" action="#" id="contact-form">
+            <p class="h4 mb-4">Kontakta oss</p>
+            <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Namn" required />
+            <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Mail" />
+            <div class="form-group">
+              <textarea class="form-control rounded-0" id="defaultContactFormMessage" rows="3" placeholder="Meddelande" required></textarea>
+            </div>
+            <button class="btn btn-primary btn-block" type="submit">Skicka</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <script>
   var nav = document.getElementById("navbar");
   var header = document.getElementById("header");
@@ -126,4 +171,5 @@
     x.style.transform = "scale(1.05)";
   }
 </script>
+
 {% endblock %}

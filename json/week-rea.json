@@ -41,6 +41,12 @@
       "price": "30",
       "singular_price": true,
       "picture": "Hana"
+    },
+    {
+      "name": "xbox",
+      "price": "2260",
+      "singular_price": true,
+      "picture": "xbox"
     }
   ]
 }

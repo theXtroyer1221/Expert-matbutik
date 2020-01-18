@@ -2,13 +2,6 @@
 @import "reset";
 @import "header";
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto Condensed", sans-serif !important;
-}
-
 .navbar {
   width: 100%;
   background-color: #2f303a;
@@ -25,16 +18,7 @@ body {
   text-decoration: none;
 }
 
-.nav-links ul {
-  list-style-type: none;
-}
-
 .nav-links a {
   color: white;
   text-decoration: none;
-}
-
-h1 {
-  font-family: "Abril Fatface", cursive !important;
-  color: $color1;
 }
