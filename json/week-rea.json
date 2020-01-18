@@ -19,28 +19,28 @@
       "picture": "meat"
     },
     {
-      "name": "homos",
+      "name": "hommos",
       "price": "15",
       "singular_price": true,
-      "picture": "meat"
+      "picture": "hommos"
     },
     {
-      "name": "falafel",
-      "price": "50",
+      "name": "Falafel",
+      "price": "60",
       "singular_price": true,
-      "picture": "meat"
+      "picture": "Falafel"
     },
     {
       "name": "rice",
-      "price": "280",
+      "price": "160",
       "singular_price": true,
-      "picture": "meat"
+      "picture": "Rice"
     },
     {
-      "name": "lolol",
-      "price": "280",
+      "name": "Hana",
+      "price": "30",
       "singular_price": true,
-      "picture": "meat"
+      "picture": "Hana"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {% extends "base.html" %} {% block content %}
-<header id=header>
+<header id="header">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       {%for i in range(0, len)%} {% if i == 0 %}
@@ -38,7 +38,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#week">Erbjudande</a>
+            <a class="nav-link" href="#Erbjudande">Erbjudande</a>
           </li>
           <hr class="vertical-hr" />
           <li class="nav-item">
@@ -46,11 +46,11 @@
           </li>
           <hr class="vertical-hr" />
           <li class="nav-item">
-            <a class="nav-link" href="#">Kontaktuppgifter</a>
+            <a class="nav-link" href="#Kontaktuppgifter">Kontaktuppgifter</a>
           </li>
           <hr class="vertical-hr" />
           <li class="nav-item">
-            <a class="nav-link" href="#">Hitta Oss</a>
+            <a class="nav-link" href="#Hitta_Oss">Hitta Oss</a>
           </li>
         </ul>
       </div>
@@ -60,7 +60,7 @@
 {% if erbjudan == None %}
 <p>expert matbutik</p>
 {% else %}
-<section class="my-5" id="week">
+<section class="my-5" id="Erbjudande">
   <div class="container">
     <div class="row">
       <div class="col-md-10 mx-auto">
@@ -84,9 +84,11 @@
   </div>
 </section>
 {% endif %}
+<section class="mb-5" id="Kontaktuppgifter"></section>
+<section class="mb-5"></section>
 <script>
   var nav = document.getElementById("navbar");
-  var lolol = document.getElementById("header");
+  var header = document.getElementById("header");
 
   window.onscroll = function() {
     if (window.pageYOffset > 590) {
@@ -96,13 +98,13 @@
       nav.classList.remove("py-4");
       nav.classList.add("py-2");
 
-      lolol.style.marginBottom = "137px";
+      header.style.marginBottom = "137px";
     } else {
       nav.style.position = "relative";
       nav.style.boxShadow = "none";
       nav.classList.add("py-4");
 
-      lolol.style.marginBottom = "0px";
+      header.style.marginBottom = "0px";
     }
   };
 </script>

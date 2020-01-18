@@ -86,6 +86,7 @@ a {
 .card img {
   height: 180px !important;
   object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-body {
@@ -106,6 +107,10 @@ a {
   font-family: price_font;
   font-size: 50px;
   font-weight: bold;
+}
+
+.footer-dark {
+  background-color: #373844;
 }
 
 #sticky-footer {
