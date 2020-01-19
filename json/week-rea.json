@@ -3,50 +3,58 @@
     {
       "name": "choclate",
       "price": "40",
-      "singular_price": true,
+      "plural_price": true,
+      "plural": "5",
+      "kilo": false,
       "picture": "choclate"
     },
     {
       "name": "fruit",
       "price": "20",
-      "singular_price": true,
+      "plural_price": false,
+      "plural": "0",
+      "kilo": true,
       "picture": "fruit"
     },
     {
       "name": "kött",
       "price": "120",
-      "singular_price": true,
+      "plural_price": false,
+      "plural": "5",
+      "kilo": true,
       "picture": "meat"
     },
     {
       "name": "hommos",
       "price": "15",
-      "singular_price": true,
+      "plural_price": true,
+      "plural": "3",
+      "kilo": false,
       "picture": "hommos"
     },
     {
       "name": "Falafel",
-      "price": "60",
-      "singular_price": true,
+      "price": "69",
+      "plural_price": false,
+      "plural": "0",
+      "kilo": false,
       "picture": "Falafel"
     },
     {
       "name": "rice",
       "price": "160",
-      "singular_price": true,
+      "plural_price": true,
+      "plural": "2",
+      "kilo": false,
       "picture": "Rice"
     },
     {
-      "name": "Hana",
-      "price": "30",
-      "singular_price": true,
+      "name": "Hana kyckling",
+      "price": "40",
+      "plural_price": true,
+      "plural": "4",
+      "kilo": false,
       "picture": "Hana"
-    },
-    {
-      "name": "xbox",
-      "price": "2260",
-      "singular_price": true,
-      "picture": "xbox"
     }
   ]
 }
