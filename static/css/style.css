@@ -103,6 +103,15 @@ a {
   color: white !important;
 }
 
+.navbar-light {
+  background-color: #f9f9f9 !important;
+  border-left: 4px black;
+}
+
+.nav-item-noB a {
+  color: #2f303a !important;
+}
+
 .nav-links ul {
   list-style-type: none;
 }

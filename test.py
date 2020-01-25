@@ -1,7 +1,13 @@
 import json
 
-with open("json/week-rea.json", "r") as f:
+with open("json/product.json", "r", encoding='utf8') as f:
     product_list = json.load(f)
 
-for product in product_list[1]:
+print(product_list["chark"][0]["namn"])
+for product in product_list:
     print(product)
+print("-----")
+#for i in range(len(product_list)):
+#    for j in product_list[i]:
+#        print(j["namn"])
+print(product_list)
