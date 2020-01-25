@@ -1,0 +1,30 @@
+{% extends "base.html" %} {% block content %}
+<section class="my-5" id="Erbjudande">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <h1>Veckans erbjudande</h1>
+        <hr />
+        <div class="row">
+          {% for j in product %}
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-img">
+                <img class="card-img-top" src="/static/images/images-rea/{{ j['bild'] }}.jpg" alt="{{ j['namn'] }}" onmouseover="bigImg(this)" onmouseout="normalImg(this)" />
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">{{ j["namn"] }}</h5>
+                <div class="card-price">
+                  <img class="label" src="\static\images\price-label\label-hr.png" />
+                  <p class="card-text text-primary-2">{{ j["pris"] }}KR</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
