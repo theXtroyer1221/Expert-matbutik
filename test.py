@@ -3,7 +3,7 @@ import json
 with open("json/product.json", "r", encoding='utf8') as f:
     product_list = json.load(f)
 
-print(product_list["chark"][0]["namn"])
+print(product_list["Chark"][0]["namn"])
 for product in product_list:
     print(product)
 print("-----")

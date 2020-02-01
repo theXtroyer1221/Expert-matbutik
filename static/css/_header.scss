@@ -10,6 +10,16 @@
   padding-bottom: 1.5rem;
 }
 
+#side-nav {
+  padding: 0rem 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#sidebar-h1 {
+  padding: 0.5rem 1rem !important;
+  padding-left: 24px !important;
+}
+
 .nav-link {
   padding: 0.5rem 1rem !important;
   transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.5s !important;
@@ -24,6 +34,18 @@
 
   &:focus {
     color: white !important;
+  }
+}
+
+.nav-link-n-c {
+  &:hover {
+    color: inherit !important;
+    background-color: $color1;
+  }
+
+  &:focus {
+    color: inherit !important;
+    background-color: $color1;
   }
 }
 

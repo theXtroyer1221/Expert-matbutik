@@ -48,6 +48,10 @@ h1 {
   }
 }
 
+.bg-primary-noB {
+  background-color: $color1 !important;
+}
+
 .text-primary-2 {
   color: $color1 !important;
 }
@@ -57,8 +61,8 @@ a {
 }
 
 .navbar-light {
-  background-color: #f9f9f9 !important;
-  border-left: 4px black;
+  background-color: #f1f1f1 !important;
+  box-shadow: 3px 1px 20px 0px #00000026;
 }
 
 .nav-item-noB {

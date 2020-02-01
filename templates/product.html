@@ -2,12 +2,15 @@
 
 <section id="varor">
   <div class="row" style="margin-right: 0px !important;">
-    <nav class="navbar navbar-light static-top col-lg-3" style="align-items: inherit !important;">
-      <div class="w-100">
+    <nav id="side-nav" class="navbar navbar-light static-top col-lg-3" style="align-items: inherit !important;">
+      <div class="w-100 bg-primary-noB">
+        <h1 id="sidebar-h1" class="text-dark">Matvaror</h1>
+      </div>
+      <div class="w-100 pb-2" style="border-left: 24px solid #ffd300;">
         <ul class="navbar-nav">
           {% for i in product%}
           <li class="nav-item nav-item-noB">
-            <a class="nav-link" href="#{{i}}">{{i}}</a>
+            <a class="nav-link nav-link-n-c" href="#{{i}}">{{i}}</a>
           </li>
           {% endfor %}
         </ul>
@@ -17,8 +20,9 @@
       <div class="col-md-10 mx-auto">
         <h1>Varor lista</h1>
         <hr />
-        <div class="row" style="margin-right: 0px !important;">
-          {% for i in product["chark"] %}
+        {% for j in product %}
+        <div id="#{{i}}" class="row" style="margin-right: 0px !important;">
+          {% for i in product["Chark"] %}
           <div class="col-lg-4">
             <div class="card">
               <div class="card-img">
@@ -33,7 +37,7 @@
               </div>
             </div>
           </div>
-          {% endfor %}
+          {% endfor %} {% endfor %}
         </div>
       </div>
     </div>
