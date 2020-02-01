@@ -1,13 +1,12 @@
 {% extends "base.html" %} {% block content %}
-
 <section id="varor">
   <div class="row" style="margin-right: 0px !important;">
-    <nav id="side-nav" class="navbar navbar-light static-top col-lg-3" style="align-items: inherit !important;">
-      <div class="w-100 bg-primary-noB">
+    <nav id="side-nav" class="navbar navbar-light static-top col-lg-3" style="align-items: inherit !important; border-left: 24px solid #ffd300;">
+      <div class="w-100 bg-primary-noB" style="height: 64px !important;">
         <h1 id="sidebar-h1" class="text-dark">Matvaror</h1>
       </div>
-      <div class="w-100 pb-2" style="border-left: 24px solid #ffd300;">
-        <ul class="navbar-nav">
+      <div class="w-100 pb-2">
+        <ul id="side-ul" class="navbar-nav">
           {% for i in product%}
           <li class="nav-item nav-item-noB">
             <a class="nav-link nav-link-n-c" href="#{{i}}">{{i}}</a>
@@ -21,8 +20,8 @@
         <h1>Varor lista</h1>
         <hr />
         {% for j in product %}
-        <div id="#{{i}}" class="row" style="margin-right: 0px !important;">
-          {% for i in product["Chark"] %}
+        <div id="{{j}}" class="row" style="margin-right: 0px !important;">
+          {% for i in product[j] %}
           <div class="col-lg-4">
             <div class="card">
               <div class="card-img">
@@ -37,10 +36,49 @@
               </div>
             </div>
           </div>
-          {% endfor %} {% endfor %}
+          {% endfor %}
         </div>
+        {% endfor %}
       </div>
     </div>
   </div>
 </section>
+<script>
+  if (window.innerWidth !== undefined && window.innerHeight !== undefined) {
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+  } else {
+    var w = document.documentElement.clientWidth;
+    var h = document.documentElement.clientHeight;
+  }
+
+  var nav = document.getElementById("side-ul");
+  var list_link = nav.querySelectorAll(".nav-item");
+  var lengthOfList = {{ product|length }};
+
+  window.onscroll = function() {
+    if (window.pageYOffset > 170) {
+      if (w == 960) {
+      } else {
+        nav.style.position = "fixed";
+        nav.style.top = "0px";
+        nav.classList.add("col-lg-3");
+        nav.style.padding = "0px";
+        for (var i = 0; i < 5; i++) {
+          list_link[i].style.marginRight = "19px";
+        }
+      }
+    } else {
+      if (w == 960) {
+      } else {
+        nav.style.position = "relative";
+        nav.classList.remove("col-lg-3");
+        for (var i = 0; i <= lengthOfList; i++) {
+          list_link[i].style.marginRight = "0px";
+          console.log(i)
+        }
+      }
+    }
+  };
+</script>
 {% endblock %}

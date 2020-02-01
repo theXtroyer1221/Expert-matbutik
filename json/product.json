@@ -11,9 +11,64 @@
       "bild": "lolol"
     }
   ],
-  "Drycka/Läsk": [],
-  "Djupfryst": [],
-  "Konserver": [],
-  "Bröd": [],
-  "Kolonial": []
+  "Drycka/Läsk": [
+    {
+      "namn": "thats not so nice",
+      "pris": "70",
+      "bild": "nice"
+    },
+    {
+      "namn": "goodbye lol",
+      "pris": "420",
+      "bild": "lolol"
+    }
+  ],
+  "Djupfryst": [
+    {
+      "namn": "hello ^_^",
+      "pris": "69",
+      "bild": "nice"
+    },
+    {
+      "namn": "lolol",
+      "pris": "420",
+      "bild": "lolol"
+    }
+  ],
+  "Konserver": [
+    {
+      "namn": "the shalalala",
+      "pris": "69",
+      "bild": "nice"
+    },
+    {
+      "namn": "i am the globlo",
+      "pris": "420",
+      "bild": "lolol"
+    }
+  ],
+  "Bröd": [
+    {
+      "namn": "whatatata",
+      "pris": "69",
+      "bild": "AAAAA"
+    },
+    {
+      "namn": "lolol",
+      "pris": "420",
+      "bild": "lolol"
+    }
+  ],
+  "Kolonial": [
+    {
+      "namn": "wha",
+      "pris": "69",
+      "bild": "nice"
+    },
+    {
+      "namn": "hello",
+      "pris": "420",
+      "bild": "lolol"
+    }
+  ]
 }
