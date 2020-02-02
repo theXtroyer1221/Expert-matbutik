@@ -135,10 +135,13 @@ a {
   transition: all ease-in 0.3s;
 }
 
-.card-img img {
-  height: 180px !important;
-  object-fit: cover;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+.card-img {
+  overflow: hidden;
+  img {
+    height: 180px !important;
+    object-fit: cover;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
 }
 
 .card-body {

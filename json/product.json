@@ -9,9 +9,14 @@
       "namn": "lolol",
       "pris": "420",
       "bild": "lolol"
+    },
+    {
+      "namn": "lamn kött",
+      "pris": "84",
+      "bild": "lolol"
     }
   ],
-  "Drycka/Läsk": [
+  "Drycka": [
     {
       "namn": "thats not so nice",
       "pris": "70",

@@ -201,6 +201,10 @@ a {
   transition: all ease-in 0.3s;
 }
 
+.card-img {
+  overflow: hidden;
+}
+
 .card-img img {
   height: 180px !important;
   -o-object-fit: cover;
@@ -242,6 +246,23 @@ a {
 #sticky-footer {
   -ms-flex-negative: none;
       flex-shrink: none;
+}
+
+#main_row {
+  -webkit-transition: all 0.5sec ease;
+  transition: all 0.5sec ease;
+}
+
+.varrow {
+  padding-left: 15px;
+}
+
+.varrow .col-lg-4 {
+  padding: 0 !important;
+}
+
+.varrow:last-child {
+  padding-right: 15px;
 }
 
 .navbar {

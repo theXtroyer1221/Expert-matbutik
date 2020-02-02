@@ -1,0 +1,14 @@
+#main_row {
+  transition: all 0.5sec ease;
+}
+
+.varrow {
+  padding-left: 15px;
+  .col-lg-4 {
+    padding: 0 !important;
+  }
+
+  &:last-child {
+    padding-right: 15px;
+  }
+}
