@@ -12,3 +12,20 @@
     padding-right: 15px;
   }
 }
+
+@media (max-width: 992px) {
+  .card {
+    margin-bottom: 7px !important;
+  }
+}
+
+.kg {
+  font-size: 29px;
+  font-weight: normal;
+}
+
+.delprice {
+  font-size: 23px;
+  position: relative;
+  bottom: 18px;
+}

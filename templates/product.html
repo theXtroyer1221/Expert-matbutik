@@ -7,11 +7,11 @@
       </div>
       <div class="w-100 pb-2">
         <ul id="side-ul" class="navbar-nav">
-          {% for i in product%}
+          {% for i in product%} {% if product[i]|length == 0 %} {% else %}
           <li class="nav-item nav-item-noB">
             <a class="nav-link nav-link-n-c" href="#{{i}}">{{i}}</a>
           </li>
-          {% endfor %}
+          {% endif %} {% endfor %}
         </ul>
       </div>
     </nav>
@@ -19,7 +19,8 @@
       <div class="col-md-10 mx-auto">
         <h1>Varor lista</h1>
         <hr />
-        {% for j in product %}
+        {% for j in product %} {% if product[j]|length == 0 %} {% else %}
+
         <div id="{{j}}" class="mb-5 pl-3 pt-2" style="background-color: rgb(231, 231, 231);">
           <h2 class="px-2 py-2">{{ j }}</h2>
           <hr />
@@ -32,9 +33,18 @@
                 </div>
                 <div class="card-body text-center">
                   <h5 class="card-title">{{ i["namn"] }}</h5>
+                  {% if i["vikt_volym"] == "vikt" %}
+                  <p class="text_secondary lead">{{i["netto"]}}g</p>
+                  {% elif i["vikt_volym"] == "volym" %}
+                  <p class="text_secondary lead">{{i["netto"]}}</p>
+                  {% endif %}
                   <div class="card-price">
                     <img class="label" src="\static\images\price-label\label-hr.png" />
-                    <p class="card-text text-primary-2">{{ i["pris"] }}:-</p>
+                    {% if i["kg"] == true %}
+                    <p class="card-text text-primary-2">{{ i["pris"] }}<span class="delprice">{{i["delpris"]}}</span>:-<span class="kg">/kg</span></p>
+                    {% else %}
+                    <p class="card-text text-primary-2">{{ i["pris"] }}<span class="delprice">{{i["delpris"]}}</span>:-</p>
+                    {% endif %}
                   </div>
                 </div>
               </div>
@@ -42,7 +52,7 @@
             {% endfor %}
           </div>
         </div>
-        {% endfor %}
+        {% endif %} {% endfor %}
       </div>
     </div>
   </div>
@@ -69,7 +79,7 @@
   window.onscroll = function () {
     if (window.pageYOffset > 170) {
       if (checkBrowserDimensions() <= 992) {
-        nav.style.backgroundColor = "#f1f1f1";
+        nav.style.backgroundColor = "none";
       } else {
           nav.style.position = "fixed";
           nav.style.top = "0px";

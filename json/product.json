@@ -1,79 +1,112 @@
 {
   "Chark": [
     {
-      "namn": "nice",
-      "pris": "69",
-      "bild": "nice"
-    },
-    {
-      "namn": "lolol",
-      "pris": "420",
+      "namn": "kött",
+      "pris": "84",
+      "delpris": "90",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": "0",
       "bild": "lolol"
     },
     {
-      "namn": "lamn kött",
+      "namn": "kött",
+      "pris": "114",
+      "delpris": "90",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": "0",
+      "bild": "lolol"
+    },
+    {
+      "namn": "kött",
       "pris": "84",
+      "delpris": "90",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": "0",
+      "bild": "lolol"
+    },
+    {
+      "namn": "kött",
+      "pris": "64",
+      "delpris": "90",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": "0",
+      "bild": "lolol"
+    },
+    {
+      "namn": "kött",
+      "pris": "79",
+      "delpris": "90",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": "0",
       "bild": "lolol"
     }
   ],
   "Drycka": [
     {
-      "namn": "thats not so nice",
-      "pris": "70",
-      "bild": "nice"
+      "namn": "Coca Cola",
+      "pris": "8",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": "volym",
+      "netto": "330ml",
+      "bild": "cocacola_small"
     },
     {
-      "namn": "goodbye lol",
-      "pris": "420",
-      "bild": "lolol"
+      "namn": "Coca Cola",
+      "pris": "30",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": "volym",
+      "netto": "2L",
+      "bild": "cocacola_big"
     }
   ],
   "Djupfryst": [
     {
-      "namn": "hello ^_^",
-      "pris": "69",
-      "bild": "nice"
-    },
-    {
-      "namn": "lolol",
-      "pris": "420",
-      "bild": "lolol"
+      "namn": "fisk",
+      "pris": "7",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": "vikt",
+      "netto": "360",
+      "bild": "bröd_brun"
     }
   ],
-  "Konserver": [
-    {
-      "namn": "the shalalala",
-      "pris": "69",
-      "bild": "nice"
-    },
-    {
-      "namn": "i am the globlo",
-      "pris": "420",
-      "bild": "lolol"
-    }
-  ],
+  "Konserver": [],
   "Bröd": [
     {
-      "namn": "whatatata",
-      "pris": "69",
-      "bild": "AAAAA"
+      "namn": "Bröd brun",
+      "pris": "7",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": "vikt",
+      "netto": "360",
+      "bild": "bröd_brun"
     },
     {
-      "namn": "lolol",
-      "pris": "420",
-      "bild": "lolol"
+      "namn": "Bröd blå",
+      "pris": "4",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": "vikt",
+      "netto": "260",
+      "bild": "bröd_blå"
     }
   ],
   "Kolonial": [
     {
-      "namn": "wha",
-      "pris": "69",
-      "bild": "nice"
-    },
-    {
-      "namn": "hello",
-      "pris": "420",
-      "bild": "lolol"
+      "namn": "produkt",
+      "pris": "999",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": "vikt",
+      "netto": "500",
+      "bild": "bröd_brun"
     }
   ]
 }
