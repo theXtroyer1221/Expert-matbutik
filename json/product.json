@@ -1,49 +1,58 @@
 {
   "Chark": [
     {
-      "namn": "kött",
-      "pris": "84",
-      "delpris": "90",
+      "namn": "Kyckling hel(halal)",
+      "pris": "??",
+      "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
-      "netto": "0",
-      "bild": "lolol"
+      "netto": 0,
+      "bild": "hel_kyckling"
     },
     {
-      "namn": "kött",
-      "pris": "114",
-      "delpris": "90",
+      "namn": "Kyckling bröst(halal)",
+      "pris": "??",
+      "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
-      "netto": "0",
-      "bild": "lolol"
+      "netto": 0,
+      "bild": "bröst_kyckling"
     },
     {
-      "namn": "kött",
-      "pris": "84",
-      "delpris": "90",
+      "namn": "Kyckling hjärta(halal)",
+      "pris": "??",
+      "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
-      "netto": "0",
-      "bild": "lolol"
+      "netto": 0,
+      "bild": "hjärta_kyckling"
     },
     {
-      "namn": "kött",
-      "pris": "64",
-      "delpris": "90",
+      "namn": "Kyckling lever(halal)",
+      "pris": "??",
+      "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
-      "netto": "0",
-      "bild": "lolol"
+      "netto": 0,
+      "bild": "lever_kyckling"
     },
     {
-      "namn": "kött",
-      "pris": "79",
-      "delpris": "90",
+      "namn": "Kyckling vingar(halal)",
+      "pris": "??",
+      "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
-      "netto": "0",
-      "bild": "lolol"
+      "netto": 0,
+      "bild": "vingar_kyckling"
+    },
+    {
+      "namn": "Lamm hals",
+      "pris": "??",
+      "delpris": "00",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "hals_lamm"
     }
   ],
   "Drycka": [

@@ -30,8 +30,7 @@ def send_mail(name, mail, message):
 
     msg = f"Subject: {subject}\n\n{body}"
 
-    server.sendmail("jaddou2005@gmail.com",
-                    "jadeddin.alnabki@elev.norrkoping.se", msg)
+    server.sendmail("jaddou2005@gmail.com", "alnabki@yahoo.com", msg)
 
     server.quit()
 
@@ -43,9 +42,9 @@ def index():
     form = SignUpForm()
     if request.method == "POST":
         result = request.form
-        name = result["name"]
-        mail = result.get("mail")
-        message = result["message"]
+        name = result["name"].encode('utf-8')
+        mail = result.get("mail").encode('utf-8')
+        message = result["message"].encode('utf-8')
 
         send_mail(name, mail, message)
 
