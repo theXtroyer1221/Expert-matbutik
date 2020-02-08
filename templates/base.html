@@ -18,9 +18,7 @@
   <body>
   {% else %}
   <body data-spy="scroll" data-target="#side-nav" data-offset="200" style="position: relative;">
-  {% endif %}
-
-    {% if request.path == "/"%}
+    {% endif %} {% if request.path == "/"%}
     <nav class="navbar navbar-expand-lg navbar-dark static-top">
       <div class="container">
         <a class="navbar-brand" href="/">
@@ -49,6 +47,10 @@
             <hr class="vertical-hr" />
             <li class="nav-item">
               <a class="nav-link" href="/#Kontaktuppgifter">Kontaktuppgifter</a>
+            </li>
+            <hr class="vertical-hr" />
+            <li class="nav-item">
+              <a class="nav-link" href="paket">Paket och Post</a>
             </li>
             <hr class="vertical-hr" />
             <li class="nav-item">

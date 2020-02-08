@@ -28,5 +28,10 @@ def varor():
     return render_template("product.html", product=product)
 
 
+@app.route("/paket")
+def paket():
+    return render_template("paket.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)

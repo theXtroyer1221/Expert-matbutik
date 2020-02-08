@@ -30,6 +30,10 @@ h1 {
   color: $color1;
 }
 
+.d-flex-noB {
+  display: flex;
+}
+
 .active {
   background-color: $color1 !important;
 }
