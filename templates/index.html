@@ -127,14 +127,9 @@
       </div>
       <div class="col-md-6">
         <div class="card">
-          <form class="text-center border border-light p-5" action="#" id="contact-form">
+          <form class="text-center border border-light p-5" action="" id="contact-form" method="POST">
             <p class="h4 mb-4">Kontakta oss</p>
-            <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Namn" required />
-            <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Mail" />
-            <div class="form-group">
-              <textarea class="form-control rounded-0" id="defaultContactFormMessage" rows="3" placeholder="Meddelande" required></textarea>
-            </div>
-            <button class="btn btn-primary btn-block" type="submit">Skicka</button>
+            {{form.name(class_="form-control mb-4", required='required', placeholder="Namn")}} {{form.mail(class_="form-control mb-4", required='required', placeholder="E-postadress")}} {{form.message(class_="form-control mb-4 rounded-0", style="height: 85px;", required='required', placeholder="Meddelande")}} {{form.submit(class_="btn btn-primary btn-block")}}
           </form>
         </div>
       </div>

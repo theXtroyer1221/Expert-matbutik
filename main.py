@@ -1,23 +1,37 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+from forms import SignUpForm
 
 import json
 import random
-import request
 
 app = Flask(__name__)
+app.config["SECRET_KEY"] = "ExpertMatbutik"
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 with open("json/week-rea.json", "r", encoding='utf8') as f:
     week_rea = json.load(f)
 
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def index():
+    form = SignUpForm()
+    if request.method == "POST":
+        result = request.form
+        name = result["name"]
+        mail = result.get("mail")
+        message = result["message"]
+
+        print(name)
+        print(mail)
+        print(message)
+
     product = ["store", "sattelite", "unicorn", "paket"]
+
     return render_template("index.html",
                            len=len(product),
                            product_image=product,
-                           erbjudan=week_rea["product"])
+                           erbjudan=week_rea["product"],
+                           form=form)
 
 
 @app.route("/varor")
