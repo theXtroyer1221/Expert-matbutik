@@ -82,6 +82,10 @@ body {
   font-family: "Roboto Condensed", sans-serif !important;
 }
 
+.section-o-hidden {
+  overflow: hidden;
+}
+
 p,
 h1,
 h2,
@@ -95,6 +99,12 @@ h4 {
 h1 {
   font-family: "Abril Fatface", cursive !important;
   color: #ffd300;
+}
+
+.d-flex-noB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .active {
