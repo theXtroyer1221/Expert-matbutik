@@ -1,8 +1,7 @@
-import json
+import os
+path = 'F:\projects\Website-expert\static\images\images-product'
+files = os.listdir(path)
 
-with open("json/product.json", "r", encoding='utf8') as f:
-    product_list = json.load(f)
 
-for product in product_list:
-    for i in product_list[product]:
-        print(i)
+for index, file in enumerate(files):
+    os.rename(os.path.join(path, file), os.path.join(path, ''.join([str(index), '.jpg'])))

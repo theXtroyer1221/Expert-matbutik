@@ -2,7 +2,8 @@
   "Chark": [
     {
       "namn": "Kyckling hel(halal)",
-      "pris": "??",
+      "price_tag": true,
+      "pris": "45",
       "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
@@ -11,7 +12,8 @@
     },
     {
       "namn": "Kyckling bröst(halal)",
-      "pris": "??",
+      "price_tag": true,
+      "pris": "45",
       "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
@@ -20,7 +22,8 @@
     },
     {
       "namn": "Kyckling hjärta(halal)",
-      "pris": "??",
+      "price_tag": true,
+      "pris": "45",
       "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
@@ -29,7 +32,8 @@
     },
     {
       "namn": "Kyckling lever(halal)",
-      "pris": "??",
+      "price_tag": true,
+      "pris": "45",
       "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
@@ -38,7 +42,8 @@
     },
     {
       "namn": "Kyckling vingar(halal)",
-      "pris": "??",
+      "price_tag": true,
+      "pris": "45",
       "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
@@ -47,75 +52,273 @@
     },
     {
       "namn": "Lamm hals",
-      "pris": "??",
+      "price_tag": true,
+      "pris": "105",
       "delpris": "00",
       "kg": true,
       "vikt_volym": 0,
       "netto": 0,
       "bild": "hals_lamm"
-    }
-  ],
-  "Drycka": [
-    {
-      "namn": "Coca Cola",
-      "pris": "8",
-      "delpris": "00",
-      "kg": false,
-      "vikt_volym": "volym",
-      "netto": "330ml",
-      "bild": "cocacola_small"
     },
     {
-      "namn": "Coca Cola",
-      "pris": "30",
+      "namn": "Lamm fett",
+      "price_tag": true,
+      "pris": "??",
+      "delpris": "00",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "fett_lamm"
+    },
+    {
+      "namn": "Lamm framdel",
+      "price_tag": true,
+      "pris": "??",
+      "delpris": "00",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "framdel_lamm"
+    },
+    {
+      "namn": "Lamm kotletter",
+      "price_tag": true,
+      "pris": "??",
+      "delpris": "00",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "kotletter_lamm"
+    },
+    {
+      "namn": "Lamm lägg",
+      "price_tag": true,
+      "pris": "??",
+      "delpris": "00",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "lägg_lamm"
+    },
+    {
+      "namn": "Lamm lever",
+      "price_tag": true,
+      "pris": "??",
+      "delpris": "00",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "lever_lamm"
+    },
+    {
+      "namn": "Kött",
+      "price_tag": false,
+      "pris": "??",
+      "delpris": "00",
+      "kg": true,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_kött"
+    }
+  ],
+  "Drycka": [    
+    {
+      "namn": "Drycka",
+      "price_tag": false,
+      "pris": "00",
       "delpris": "00",
       "kg": false,
-      "vikt_volym": "volym",
-      "netto": "2L",
-      "bild": "cocacola_big"
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_drycka"
     }
   ],
   "Djupfryst": [
     {
-      "namn": "fisk",
-      "pris": "7",
+      "namn": "Djupfryst",
+      "price_tag": false,
+      "pris": "00",
       "delpris": "00",
       "kg": false,
-      "vikt_volym": "vikt",
-      "netto": "360",
-      "bild": "bröd_brun"
-    }
-  ],
-  "Konserver": [],
-  "Bröd": [
-    {
-      "namn": "Bröd brun",
-      "pris": "7",
-      "delpris": "00",
-      "kg": false,
-      "vikt_volym": "vikt",
-      "netto": "360",
-      "bild": "bröd_brun"
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_djupfryst"
     },
     {
-      "namn": "Bröd blå",
-      "pris": "4",
+      "namn": "Djupfryst",
+      "price_tag": false,
+      "pris": "00",
       "delpris": "00",
       "kg": false,
-      "vikt_volym": "vikt",
-      "netto": "260",
-      "bild": "bröd_blå"
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "2_djupfryst"
     }
   ],
-  "Kolonial": [
+  "Grönsaker/frukt": [   
     {
-      "namn": "produkt",
-      "pris": "999",
+      "namn": "Grönsaker och Frukt",
+      "price_tag": false,
+      "pris": "00",
       "delpris": "00",
       "kg": false,
-      "vikt_volym": "vikt",
-      "netto": "500",
-      "bild": "bröd_brun"
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_grön"
+    },
+    {
+      "namn": "Grönsaker och Frukt",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "2_grön"
+    },
+    {
+      "namn": "Grönsaker och Frukt",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "3_grön"
+    }
+  ],
+  "Livsmedel": [
+    {
+      "namn": "Mejeri produkter",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_mejeri"
+    },
+    {
+      "namn": "Mejeri produkter",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "2_mejeri"
+    },
+    {
+      "namn": "Alla sorts livsmedel",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_livsmedel"
+    },
+    {
+      "namn": "Te och Kaffe",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "3_livsmedel"
+    },
+    {
+      "namn": "Ägg",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "4_livsmedel"
+    },
+    {
+      "namn": "godis",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_godis"
+    },
+    {
+      "namn": "Nötter och natur godis",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_nötter"
+    },
+    {
+      "namn": "Dadlar",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_dadlar"
+    },
+    {
+      "namn": "Disk och tvätt medel",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_diskmedel"
+    }
+  ],
+  "Redskap": [
+    {
+      "namn": "Kök redskap",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "1_redskap"
+    },
+    {
+      "namn": "Ramadan",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "2_redskap"
+    },
+    {
+      "namn": "Ramadan",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "3_redskap"
+    },
+    {
+      "namn": "Ramadan",
+      "price_tag": false,
+      "pris": "00",
+      "delpris": "00",
+      "kg": false,
+      "vikt_volym": 0,
+      "netto": 0,
+      "bild": "4_redskap"
     }
   ]
 }

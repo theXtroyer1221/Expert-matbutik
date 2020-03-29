@@ -1,58 +1,58 @@
 {
   "product": [
     {
-      "name": "choclate",
-      "price": "40",
-      "plural_price": true,
-      "plural": "5",
-      "kilo": false,
-      "picture": "choclate"
-    },
-    {
-      "name": "fruit",
-      "price": "20",
-      "plural_price": false,
-      "plural": "0",
-      "kilo": true,
-      "picture": "fruit"
-    },
-    {
-      "name": "kött",
-      "price": "120",
-      "plural_price": false,
-      "plural": "5",
-      "kilo": true,
-      "picture": "meat"
-    },
-    {
-      "name": "hommos",
-      "price": "15",
+      "name": "sardines aldurra",
+      "price": "23",
       "plural_price": true,
       "plural": "3",
-      "kilo": false,
-      "picture": "hommos"
+      "kilo": true,
+      "picture": "sardines"
     },
     {
-      "name": "Falafel",
-      "price": "69",
+      "name": "Al durra Tomat paste 650",
+      "price": "30",
+      "plural_price": true,
+      "plural": "2",
+      "kilo": false,
+      "picture": "tomat-paste-small"
+    },
+    {
+      "name": "Al durra Tomat paste 850g",
+      "price": "35",
+      "plural_price": true,
+      "plural": "2",
+      "kilo": false,
+      "picture": "tomat-paste"
+    },
+    {
+      "name": "Durra foul Medammas",
+      "price": "25",
+      "plural_price": true,
+      "plural": "4",
+      "kilo": false,
+      "picture": "ful"
+    },
+    {
+      "name": "Sindibad rice 5kg",
+      "price": "110",
       "plural_price": false,
       "plural": "0",
       "kilo": false,
-      "picture": "Falafel"
+      "picture": "sindibad-rice"
     },
     {
-      "name": "rice",
-      "price": "160",
-      "plural_price": true,
-      "plural": "2",
+      "name": "SunRice 10kg",
+      "price": "169",
+      "plural_price": false,
+      "plural": "0",
       "kilo": false,
       "picture": "Rice"
     },
     {
       "name": "Hana kyckling",
-      "price": "40",
+      "price": "45",
       "plural_price": true,
-      "plural": "4",
+      "plural": "2",
       "kilo": false,
       "picture": "Hana"
     }

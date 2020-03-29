@@ -38,6 +38,8 @@
                   {% elif i["vikt_volym"] == "volym" %}
                   <p class="text_secondary lead">{{i["netto"]}}</p>
                   {% endif %}
+                  {% if i["price_tag"] == false %}
+                  {% else %}
                   <div class="card-price">
                     <img class="label" src="\static\images\price-label\label-hr.png" />
                     {% if i["kg"] == true %}
@@ -46,6 +48,7 @@
                     <p class="card-text text-primary-2">{{ i["pris"] }}<span class="delprice">{{i["delpris"]}}</span>:-</p>
                     {% endif %}
                   </div>
+                  {% endif %}
                 </div>
               </div>
             </div>
