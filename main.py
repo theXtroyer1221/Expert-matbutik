@@ -48,7 +48,7 @@ def index():
 
         send_mail(name, mail, message)
 
-    product = ["store", "sattelite", "unicorn", "paket"]
+    product = ["store", "grön", "livsmedel", "paket"]
 
     return render_template("index.html",
                            len=len(product),
