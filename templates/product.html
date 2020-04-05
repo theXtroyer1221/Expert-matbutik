@@ -15,7 +15,7 @@
         </ul>
       </div>
     </nav>
-    <div style="margin-bottom:9rem;" class="container col-lg-9">
+    <div style="margin-bottom:9rem;margin-top:50px;" class="container col-lg-9">
       <div class="col-md-10 mx-auto">
         <h1>Varor lista</h1>
         <hr />
@@ -37,9 +37,7 @@
                   <p class="text_secondary lead">{{i["netto"]}}g</p>
                   {% elif i["vikt_volym"] == "volym" %}
                   <p class="text_secondary lead">{{i["netto"]}}</p>
-                  {% endif %}
-                  {% if i["price_tag"] == false %}
-                  {% else %}
+                  {% endif %} {% if i["price_tag"] == false %} {% else %}
                   <div class="card-price">
                     <img class="label" src="\static\images\price-label\label-hr.png" />
                     {% if i["kg"] == true %}
