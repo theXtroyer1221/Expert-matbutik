@@ -70,5 +70,10 @@ def paket():
     return render_template("paket.html")
 
 
+@app.route("/ramadan")
+def ramadan():
+    return render_template("ramadan.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
