@@ -16,7 +16,7 @@ body {
 }
 
 .section-o-hidden {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 p,
@@ -32,6 +32,15 @@ h4 {
 h1 {
   font-family: "Abril Fatface", cursive !important;
   color: $color1;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: rgba(0, 0, 0, 0.125);
+  height: 2px;
 }
 
 .d-flex-noB {
@@ -188,4 +197,12 @@ a {
 
 #sticky-footer {
   flex-shrink: none;
+}
+
+.rotate90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
