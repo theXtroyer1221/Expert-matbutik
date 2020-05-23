@@ -1,12 +1,44 @@
 {
   "product": [
     {
-      "name": "sardines aldurra",
-      "price": "23",
-      "plural_price": true,
-      "plural": "3",
+      "name": "Tomat kvist",
+      "price": "12",
+      "plural_price": false,
+      "plural": "0",
       "kilo": true,
-      "picture": "sardines"
+      "picture": "tomat"
+    },
+    {
+      "name": "Små Gurka",
+      "price": "24",
+      "plural_price": false,
+      "plural": "0",
+      "kilo": true,
+      "picture": "gurka"
+    },
+    {
+      "name": "Romersk sallad",
+      "price": "10",
+      "plural_price": false,
+      "plural": "0",
+      "kilo": false,
+      "picture": "sallad"
+    },
+    {
+      "name": "Romersk sallad",
+      "price": "20",
+      "plural_price": false,
+      "plural": "0",
+      "kilo": true,
+      "picture": "iceberg"
+    },
+    {
+      "name": "Vattenmelon",
+      "price": "15",
+      "plural_price": false,
+      "plural": "0",
+      "kilo": true,
+      "picture": "watermelon"
     },
     {
       "name": "Al durra Tomat paste 650",
@@ -34,7 +66,7 @@
     },
     {
       "name": "Sindibad rice 5kg",
-      "price": "110",
+      "price": "99",
       "plural_price": false,
       "plural": "0",
       "kilo": false,
