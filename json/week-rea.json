@@ -10,7 +10,7 @@
     },
     {
       "name": "Små Gurka",
-      "price": "24",
+      "price": "25",
       "plural_price": false,
       "plural": "0",
       "kilo": true,
@@ -18,15 +18,15 @@
     },
     {
       "name": "Romersk sallad",
-      "price": "10",
+      "price": "15",
       "plural_price": false,
       "plural": "0",
       "kilo": false,
       "picture": "sallad"
     },
     {
-      "name": "Romersk sallad",
-      "price": "20",
+      "name": "isberg sallad",
+      "price": "19",
       "plural_price": false,
       "plural": "0",
       "kilo": true,
@@ -34,7 +34,7 @@
     },
     {
       "name": "Vattenmelon",
-      "price": "15",
+      "price": "10",
       "plural_price": false,
       "plural": "0",
       "kilo": true,
@@ -65,12 +65,12 @@
       "picture": "ful"
     },
     {
-      "name": "Sindibad rice 5kg",
-      "price": "99",
+      "name": "Zamzam rice 5kg",
+      "price": "95",
       "plural_price": false,
       "plural": "0",
       "kilo": false,
-      "picture": "sindibad-rice"
+      "picture": "zamzam-rice"
     },
     {
       "name": "SunRice 10kg",
@@ -79,6 +79,30 @@
       "plural": "0",
       "kilo": false,
       "picture": "Rice"
+    },
+    {
+      "name": "Sultani ris",
+      "price": "95",
+      "plural_price": false,
+      "plural": "0",
+      "kilo": false,
+      "picture": "sultana"
+    },
+    {
+      "name": "Durra olivolja 1l",
+      "price": "55",
+      "plural_price": false,
+      "plural": "0",
+      "kilo": false,
+      "picture": "durra-oi"
+    },
+    {
+      "name": "Durra cucumber 1.4kg",
+      "price": "29.99",
+      "plural_price": false,
+      "plural": "0",
+      "kilo": false,
+      "picture": "durra-cucumber"
     },
     {
       "name": "Hana kyckling",
