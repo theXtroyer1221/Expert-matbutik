@@ -2,7 +2,7 @@
   "product": [
     {
       "name": "Tomat kvist",
-      "price": "12",
+      "price": "26",
       "plural_price": false,
       "plural": "0",
       "kilo": true,
@@ -10,7 +10,7 @@
     },
     {
       "name": "Små Gurka",
-      "price": "25",
+      "price": "29",
       "plural_price": false,
       "plural": "0",
       "kilo": true,
@@ -26,7 +26,7 @@
     },
     {
       "name": "isberg sallad",
-      "price": "19",
+      "price": "22",
       "plural_price": false,
       "plural": "0",
       "kilo": true,
@@ -34,23 +34,23 @@
     },
     {
       "name": "Vattenmelon",
-      "price": "10",
+      "price": "15",
       "plural_price": false,
       "plural": "0",
       "kilo": true,
       "picture": "watermelon"
     },
     {
-      "name": "Al durra Tomat paste 650",
-      "price": "30",
-      "plural_price": true,
-      "plural": "2",
+      "name": "Al durra Tomat paste 650g",
+      "price": "15",
+      "plural_price": false,
+      "plural": "0",
       "kilo": false,
       "picture": "tomat-paste-small"
     },
     {
       "name": "Al durra Tomat paste 850g",
-      "price": "35",
+      "price": "33",
       "plural_price": true,
       "plural": "2",
       "kilo": false,
@@ -58,15 +58,15 @@
     },
     {
       "name": "Durra foul Medammas",
-      "price": "25",
+      "price": "5",
       "plural_price": true,
-      "plural": "4",
+      "plural": "1",
       "kilo": false,
       "picture": "ful"
     },
     {
       "name": "Zamzam rice 5kg",
-      "price": "95",
+      "price": "105",
       "plural_price": false,
       "plural": "0",
       "kilo": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "SunRice 10kg",
-      "price": "169",
+      "price": "195",
       "plural_price": false,
       "plural": "0",
       "kilo": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Sultani ris",
-      "price": "95",
+      "price": "85",
       "plural_price": false,
       "plural": "0",
       "kilo": false,
@@ -90,7 +90,7 @@
     },
     {
       "name": "Durra olivolja 1l",
-      "price": "55",
+      "price": "69",
       "plural_price": false,
       "plural": "0",
       "kilo": false,
@@ -98,7 +98,7 @@
     },
     {
       "name": "Durra cucumber 1.4kg",
-      "price": "29.99",
+      "price": "35",
       "plural_price": false,
       "plural": "0",
       "kilo": false,
@@ -106,9 +106,9 @@
     },
     {
       "name": "Hana kyckling",
-      "price": "45",
+      "price": "25",
       "plural_price": true,
-      "plural": "2",
+      "plural": "1",
       "kilo": false,
       "picture": "Hana"
     }
